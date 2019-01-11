@@ -1,0 +1,14 @@
+{
+  "name": "netlify-functions-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Andy Mockler <asmockler@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "netlify-lambda serve ./functions",
+    "build": "netlify-lambda build ./functions"
+  },
+  "devDependencies": {
+    "netlify-lambda": "^1.2.0"
+  }
+}
